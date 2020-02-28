@@ -1,0 +1,24 @@
+ID,Category,Instance,Material,Shape,Transparency,Height (mm),Width (mm)
+1,Bottle,Water,Plastic,Circular,2,320,98.26
+2,Bottle,Buxton Still Natural Mineral Water,Plastic,Circular,2,330,84.5
+3,Bottle,Home Made Drink/Water Bottle,Glass,Circular,2,270,71.8
+4,Bottle,Coca cola 330 ml,Glass,Circular,2,208,60.96
+5,Glass,Tondo Water/Whisky/Juice Tumbler Glasses,Glass,Circular,2,94,72
+6,Glass,Thumbs Up Diamond Glass,Glass,No circular,2,102,89.5
+7,Cup,Beer cup,Plastic,Circular,2,135,98
+8,Glass,Wine glass,Plastic,Circular,2,136,80
+9,Glass,Hiball glass,Glass,Circular,2,140,62.22
+10,Glass,Cocktail Glasses,Glass,Circular,2,193,81.65
+11,Glass,Rum Glasses,Glass,Circular,2,99,81.85
+12,Glass,Margarita Glasses,Glass,Circular,2,168,107.63
+13,Glass,Champagne Flute,Plastic,Circular,2,175,58.4
+14,Bottle,Appletised,Glass,Circular,1,275,87.17
+15,Bottle,Elder flower,Glass,Circular,1,295,77.1
+16,Bottle,Amaretto,Glass,No circular,1,225,97.47
+17,Cup,Tumblers Drinking Glasses,Plastic,Circular,1,91,88.2
+18,Cup,White cup with stripes,Plastic,Circular,1,72,82
+19,Bottle,Big Fanta,Plastic,Circular,0,340,101.02
+20,Bottle,Lending FUSION waterbottle (outlier),Plastic,No circular,0,190,80.5
+21,Cup,SCR cup,Paper,Circular,0,101,84.92
+22,Cup,Starbuck single espresso cup,Paper,Circular,0,60,60.78
+23,Cup,Red cup,Plastic,Circular,0,119,95
