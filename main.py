@@ -64,7 +64,7 @@ class LoDE:
 		# Load object detection model
 		self.detectionModel = torchvision.models.detection.maskrcnn_resnet50_fpn(pretrained=True)
 		self.detectionModel.eval()
-		self.detectionModel.cuda()
+		self.detectionModel.to(device)
 
 	def getObjectDimensions(self):
 		
