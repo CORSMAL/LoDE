@@ -78,7 +78,8 @@ class LoDE:
 			centroid = centroid[:,:-1].reshape(-1)
 			
 			height, width, visualization = getObjectDimensions(self.c1, self.c2, centroid, self.args.draw)
-			cv2.imwrite('{}/id{}_l{}_b{}.png'.format(self.output_path, self.args.object, self.args.lighting, self.args.background), visualization )
+			if self.args.draw:
+				cv2.imwrite('{}/id{}_l{}_b{}.png'.format(self.output_path, self.args.object, self.args.lighting, self.args.background), visualization )
 			
 			f.write('id{}_l{}_b{}.png\t{:.2f}\t{:.2f}\n'.format(self.args.object, self.args.lighting, self.args.background, height, width))
 			print('Object {}, lighting {}, and background {} measured!'.format(self.args.object, self.args.lighting, self.args.background))

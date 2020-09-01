@@ -216,10 +216,11 @@ def getObjectDimensions(_c1, _c2, centroid, draw=False):
 	height = (estHeights[-1] - estHeights[0]) * 1000
 
 	# Draw final dimensions
+	img1 = copy.deepcopy(c1['rgb'])
+	img2 = copy.deepcopy(c2['rgb'])
+	
 	if draw:
-		img1 = copy.deepcopy(c1['rgb'])
-		img2 = copy.deepcopy(c2['rgb'])
-
+		
 		for i, rad in enumerate(estRadius):
 			
 			p3d = []
